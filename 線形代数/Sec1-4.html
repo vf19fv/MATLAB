@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="generator" content="MATLAB R2016a"><meta http-equiv="X-UA-Compatible" content="IE=edge,IE=9,chrome=1"><title>Untitled</title><style type="text/css">
+* {margin: 0; padding: 0;}
+body {text-align: start; line-height: 17.2339992523193px; min-height: 0px; white-space: normal; color: rgb(0, 0, 0); font-family: Consolas, Inconsolata, Menlo, monospace; font-style: normal; font-size: 14px; font-weight: normal; text-decoration: none; white-space: normal; }
+h1, h2 {font-weight: normal;}
+.content { padding: 30px; }
+
+.S0 { margin-left: 0px; margin-top: 0px; margin-bottom: 0px; margin-right: 0px;  }
+.S1 { line-height: 20.576000213623px; min-height: 20px; white-space: pre-wrap; color: rgb(60, 60, 60); font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: bold; white-space: pre-wrap; margin-left: 4px; margin-top: 3px; margin-bottom: 9px; margin-right: 10px;  }
+.S2 { min-height: 0px; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; margin-right: 0px;  }
+.S3 { margin-left: 3px; margin-top: 10px; margin-bottom: 4px; margin-right: 3px;  }
+.S4 { line-height: 15.5926666259766px; min-height: 18px; white-space: nowrap; font-size: 12.6666669845581px; white-space: nowrap; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; margin-right: 0px;  }
+.S5 { line-height: 15.5926675796509px; min-height: 0px; white-space: pre; font-size: 12.6666679382324px; white-space: pre; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; margin-right: 0px;  }
+.S6 { line-height: 15.5926675796509px; min-height: 0px; white-space: pre; font-size: 12.6666679382324px; white-space: pre; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; margin-right: 45px;  }
+.S7 { margin-left: 3px; margin-top: 4px; margin-bottom: 4px; margin-right: 3px;  }
+.S8 { line-height: 15.5926675796509px; min-height: 0px; white-space: pre; color: rgb(34, 139, 34); font-size: 12.6666679382324px; white-space: pre; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; margin-right: 45px;  }
+.S9 { line-height: 15.5926675796509px; min-height: 0px; white-space: pre; color: rgb(160, 32, 240); font-size: 12.6666679382324px; white-space: pre; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; margin-right: 0px;  }
+
+.LineNodeBlock {margin: 10px 0 10px 0; background-color: #F7F7F7;}
+.LineNodeBlock+.paragraphNode {margin-top: 10px;}
+.lineNode {padding-left: 10px; border-left: 1px solid #E9E9E9; border-right: 1px solid #E9E9E9;}
+.inlineWrapper:first-child .lineNode,.inlineWrapper.outputs+.inlineWrapper .lineNode {padding-top: 5px; border-top: 1px solid #E9E9E9;}
+.inlineWrapper:last-child .lineNode,.inlineWrapper.outputs .lineNode {padding-bottom: 5px; border-bottom: 1px solid #E9E9E9;}
+.lineNode .textBox {white-space: pre;}
+</style></head><body><div class = "content"><div class = 'SectionBlock containment active'><h2 class = "S1"><span class = "S2">1.4</span></h2><div class = 'LineNodeBlock contiguous'><div class = 'inlineWrapper'><div class = "S4 lineNode"><span class = "S5">A</span><span class = "S6"> = [1,2;3,4]</span></div></div><div class = 'inlineWrapper'><div class = "S4 lineNode"><span class = "S6">L = [1,0;3,1]</span></div></div><div class = 'inlineWrapper'><div class = "S4 lineNode"><span class = "S6">U = [1,2;0,-2]</span></div></div><div class = 'inlineWrapper'><div class = "S4 lineNode"><span class = "S6">L*U</span></div></div></div></div><div class = "S0"></div><div class = 'SectionBlock containment'><div class = 'LineNodeBlock contiguous'><div class = 'inlineWrapper'><div class = "S4 lineNode"><span class = "S6">A = [2,3,3;0,5,7;6,9,8]</span></div></div><div class = 'inlineWrapper'><div class = "S4 lineNode"><span class = "S6">E31 = [1,0,0;0,1,0;-3,0,1]</span></div></div><div class = 'inlineWrapper'><div class = "S4 lineNode"><span class = "S6">L = E31^-1</span></div></div><div class = 'inlineWrapper'><div class = "S4 lineNode"><span class = "S5">U</span><span class = "S6"> = E31*A</span></div></div><div class = 'inlineWrapper'><div class = "S4 lineNode"><span class = "S5">c</span><span class = "S6"> = L^-1*[2;2;5]</span></div></div></div></div><div class = "S0"></div><div class = 'SectionBlock containment'><h2 class = "S1"><span class = "S2">P27</span></h2><div class = 'LineNodeBlock contiguous'><div class = 'inlineWrapper'><div class = "S4 lineNode"><span class = "S6">clear</span></div></div><div class = 'inlineWrapper'><div class = "S4 lineNode"><span class = "S5">A</span><span class = "S6"> = [1,0,0;2,1,0;-1,-3,1]*[2,1,1;0,-1,-2;0,0,-4]</span></div></div><div class = 'inlineWrapper'><div class = "S4 lineNode"><span class = "S6">L = [1,0,0;2,1,0;-1,-3,1]</span></div></div><div class = 'inlineWrapper'><div class = "S4 lineNode"><span class = "S6">U = [1,1/2,1/2;0,1,2;0,0,1]</span></div></div><div class = 'inlineWrapper'><div class = "S4 lineNode"><span class = "S6">D = [2,0,0;0,-1,0;0,0,-4]</span></div></div><div class = 'inlineWrapper'><div class = "S4 lineNode"><span class = "S6">L*D*U</span></div></div></div></div><div class = "S0"></div><div class = 'SectionBlock containment'><h2 class = "S1"><span class = "S2">1.4.5</span></h2><div class = 'LineNodeBlock contiguous'><div class = 'inlineWrapper'><div class = "S4 lineNode"><span class = "S6">clear</span></div></div><div class = 'inlineWrapper'><div class = "S4 lineNode"><span class = "S6">A = [2,-1,0;-1,2,-1;0,-1,2]</span></div></div><div class = 'inlineWrapper'><div class = "S4 lineNode"><span class = "S6">b = [6;2;-6]</span></div></div><div class = 'inlineWrapper'><div class = "S4 lineNode"><span class = "S6">E21 = [1,0,0;1/2,1,0;0,0,1]</span></div></div><div class = 'inlineWrapper'><div class = "S4 lineNode"><span class = "S6">U = E21*A</span></div></div><div class = 'inlineWrapper'><div class = "S4 lineNode"><span class = "S6">E32 = [1,0,0;0,1,0;0,2/3,1]</span></div></div><div class = 'inlineWrapper'><div class = "S4 lineNode"><span class = "S6">U = E32 * U</span></div></div><div class = 'inlineWrapper'><div class = "S4 lineNode"><span class = "S6">L = E21^-1 * E32^-1</span></div></div><div class = 'inlineWrapper'><div class = "S4 lineNode"><span class = "S6">c = L^-1 * b</span></div></div><div class = 'inlineWrapper'><div class = "S4 lineNode"><span class = "S8">% 要 Symbolic Math Toolbox</span></div></div><div class = 'inlineWrapper'><div class = "S4 lineNode"><span class = "S5">syms </span><span class = "S9">x y z</span><span class = "S6">;</span></div></div><div class = 'inlineWrapper'><div class = "S4 lineNode"><span class = "S6">eqn = U * [x;y;z] == c;</span></div></div><div class = 'inlineWrapper'><div class = "S4 lineNode"><span class = "S6">solx = solve(eqn, x,y,z);</span></div></div><div class = 'inlineWrapper'><div class = "S4 lineNode"><span class = "S5">Answer</span><span class = "S6"> = [solx.x;solx.y;solx.z]</span></div></div></div></div><div class = "S0"></div><div class = 'SectionBlock containment'><h2 class = "S1"><span class = "S2">1.4.7</span></h2><div class = 'LineNodeBlock contiguous'><div class = 'inlineWrapper'><div class = "S4 lineNode"><span class = "S6">clear</span></div></div><div class = 'inlineWrapper'><div class = "S4 lineNode"><span class = "S6">L = [1,0,0;-1,1,0;0,-1,1]</span></div></div><div class = 'inlineWrapper'><div class = "S4 lineNode"><span class = "S6">U = [1,-1,0;0,1,-1;0,0,1]</span></div></div><div class = 'inlineWrapper'><div class = "S4 lineNode"><span class = "S6">b = [2;-3;4]</span></div></div><div class = 'inlineWrapper'><div class = "S4 lineNode"><span class = "S6">c = L^-1 * b</span></div></div><div class = 'inlineWrapper'><div class = "S4 lineNode"><span class = "S8">% 要 Symbolic Math Toolbox</span></div></div><div class = 'inlineWrapper'><div class = "S4 lineNode"><span class = "S5">syms </span><span class = "S9">x y z</span><span class = "S6">;</span></div></div><div class = 'inlineWrapper'><div class = "S4 lineNode"><span class = "S6">eqn = U * [x;y;z] == c;</span></div></div><div class = 'inlineWrapper'><div class = "S4 lineNode"><span class = "S6">solx = solve(eqn, x,y,z);</span></div></div><div class = 'inlineWrapper'><div class = "S4 lineNode"><span class = "S6">Answer = [solx.x;solx.y;solx.z]</span></div></div></div></div><div class = "S0"></div><div class = 'SectionBlock containment'><h2 class = "S1"><span class = "S2"></span></h2></div></div>
+<!-- 
+##### SOURCE BEGIN #####
+%% 1.4
+
+A = [1,2;3,4]
+L = [1,0;3,1]
+U = [1,2;0,-2]
+L*U
+%%
+A = [2,3,3;0,5,7;6,9,8]
+E31 = [1,0,0;0,1,0;-3,0,1]
+L = E31^-1
+U = E31*A
+c = L^-1*[2;2;5]
+%% P27
+%%
+clear
+A = [1,0,0;2,1,0;-1,-3,1]*[2,1,1;0,-1,-2;0,0,-4]
+L = [1,0,0;2,1,0;-1,-3,1]
+U = [1,1/2,1/2;0,1,2;0,0,1]
+D = [2,0,0;0,-1,0;0,0,-4]
+L*D*U
+%% 1.4.5
+%%
+clear
+A = [2,-1,0;-1,2,-1;0,-1,2]
+b = [6;2;-6]
+E21 = [1,0,0;1/2,1,0;0,0,1]
+U = E21*A
+E32 = [1,0,0;0,1,0;0,2/3,1]
+U = E32 * U
+L = E21^-1 * E32^-1
+c = L^-1 * b
+% 要 Symbolic Math Toolbox
+syms x y z;
+eqn = U * [x;y;z] == c;
+solx = solve(eqn, x,y,z);
+Answer = [solx.x;solx.y;solx.z]
+%% 1.4.7
+%%
+clear
+L = [1,0,0;-1,1,0;0,-1,1]
+U = [1,-1,0;0,1,-1;0,0,1]
+b = [2;-3;4]
+c = L^-1 * b
+% 要 Symbolic Math Toolbox
+syms x y z;
+eqn = U * [x;y;z] == c;
+solx = solve(eqn, x,y,z);
+Answer = [solx.x;solx.y;solx.z]
+%%
+##### SOURCE END #####
+--></body></html>
