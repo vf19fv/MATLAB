@@ -1,4 +1,4 @@
-data = e3.';
+data = data2.';
 tmp = detrend(data);
 data = transpose(tmp);
 m = length(data);
